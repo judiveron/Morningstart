@@ -100,9 +100,7 @@ main{
        width: 580px;
     }
 
-h2 {
-
-}
+/*##### feacture #####*/
 #feacture {
     margin-top: 40px;
     display: flex;
@@ -153,25 +151,76 @@ h2 {
     text-align: center;
     border-radius: 12px;
     box-shadow: 10px 10px 10px #999;
+    padding-bottom: 48px;
 }
-#planes article h2 {
-    margin: 20px;
+#planes h2 {
+    margin-top: 32px;
+}
+
+#planes div {
+    margin: 20px 0px;
+    padding-bottom: 8px;
+    background-color: #f8f8f8;
 }
 
 #planes span {
     font-size: 32px;
     font-weight: 600;
 }
-#planes article ul {
+#planes ul {
+    margin-bottom: 32px;
+}
+#planes li {
     list-style: none;
-    margin: 20px 0px;
+    line-height: 32px;
+}
+
+#planes a {
+    font-weight: 600;
+    color: #707070;
+    border: solid 2px #707070;
+    border-radius: 36px;
+    padding: 8px 40px;
+    transition: 300ms;
+}
+
+#planes a:hover {
+    background-color: #262626;
+    color: #fff;
+}
+
+#destacado div, #destacado a {
+    background: rgb(215,143,183);
+    background: linear-gradient(180deg, rgba(215,143,183,1) 0%, rgba(201,185,241,1) 100%);
+    color: #fff;
+    border: rgb(215,143,183) 1px solid;
+}
+
+#destacado a:hover {
+    background: rgb(215,143,183);
+    background: linear-gradient(180deg, rgba(215,143,183,1) 0%, rgba(201,185,241,1) 100%);
+    color: #fff;
+}
+
+/*##### nosotros #####*/
+#nosotros {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#nosotros img {
+    width: 245px;
+    height: 310px;
+    margin-bottom: 12px;
 }
 
 
 
 
 /*##### footer #####*/
-
 footer {
     background-color: #262626;
 }
